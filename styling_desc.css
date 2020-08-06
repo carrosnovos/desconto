@@ -57,15 +57,19 @@ body{
 }
 
 .descontos{
+    display: flex;
     height: 100%;
+/*    max-width: 490px;*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     background: url(https://djivangross.com/md/images/carrosnovos/background_descontos.jpg);
 }
 .descontoWrapper{
     flex: 33%;
     padding: 5px;
+    max-width: 490px;
 }
 .desconto{
     display: flex;
